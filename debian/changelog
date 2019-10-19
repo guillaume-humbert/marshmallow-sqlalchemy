@@ -1,0 +1,5 @@
+marshmallow-sqlalchemy (0.19.0-1~ubuntu1) bionic; urgency=low
+
+  * Initial release.
+
+ -- Guillaume J Humbert <guillaume.j.humbert@pm.me>  Sat, 19 Oct 2019 12:16:30 +0800

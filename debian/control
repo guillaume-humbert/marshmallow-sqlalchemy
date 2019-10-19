@@ -1,0 +1,17 @@
+Source: marshmallow-sqlalchemy
+Section: python
+Priority: optional
+Maintainer: Guillaume J Humbert <guillaume.j.humbert@pm.me>
+Build-Depends: debhelper (>=10), dh-python, python3-all, python3-setuptools, python3-pytest
+Standards-Version: 4.1.4
+Homepage: https://marshmallow-sqlalchemy.readthedocs.io/en/latest/
+X-Python3-Version: >= 3.6
+Vcs-Git: https://github.com/guillaume-humbert/marshmallow-sqlalchemy.git
+Vcs-Browser: https://github.com/guillaume-humbert/marshmallow-sqlalchemy
+
+Package: python3-marshmallow-sqlalchemy
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${python3:Depends}
+Description: SQLAlchemy integration with marshmallow
+ SQLAlchemy integration with the marshmallow (de)serialization library.
