@@ -7,4 +7,4 @@ gbp buildpackage --git-tag --git-sign-tags --git-pristine-tar --git-compression=
 
 Then:
 
-gbp push
+gbp push --pristine-tar
