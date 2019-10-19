@@ -1,3 +1,9 @@
+marshmallow-sqlalchemy (0.19.0-1~ubuntu2) bionic; urgency=low
+
+  * Fixed Build Dependencies.
+
+ -- Guillaume J Humbert <guillaume.j.humbert@pm.me>  Sat, 19 Oct 2019 13:00:30 +0800
+
 marshmallow-sqlalchemy (0.19.0-1~ubuntu1) bionic; urgency=low
 
   * Initial release.
