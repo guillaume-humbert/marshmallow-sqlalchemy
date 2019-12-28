@@ -1,3 +1,9 @@
+marshmallow-sqlalchemy (0.21.0-1) eoan; urgency=medium
+
+  * New upstream version 0.21.0
+
+ -- Guillaume J Humbert <guillaume.j.humbert@pm.me>  Sat, 28 Dec 2019 15:46:44 +0800
+
 marshmallow-sqlalchemy (0.19.0-1~ubuntu2) bionic; urgency=low
 
   * Fixed Build Dependencies.
