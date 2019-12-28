@@ -1,6 +1,23 @@
 Changelog
 ---------
 
+0.21.0 (2019-12-04)
++++++++++++++++++++
+
+* Add support for ``postgresql.OID`` type (:pr:`262`).
+  Thanks :user:`petrus-v` for the PR.
+* Remove imprecise Python 3 classifier from PyPI metadata (:pr:`255`).
+  Thanks :user:`ecederstrand`.
+
+0.20.0 (2019-12-01)
++++++++++++++++++++
+
+* Add support for ``mysql.DATETIME`` and ``mysql.INTEGER`` type (:issue:`204`).
+* Add support for ``postgresql.CIDR`` type (:issue:`183`).
+* Add support for ``postgresql.DATE`` and ``postgresql.TIME`` type.
+
+Thanks :user:`evelyn9191` for the PR.
+
 0.19.0 (2019-09-05)
 +++++++++++++++++++
 

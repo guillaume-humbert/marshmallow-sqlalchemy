@@ -89,6 +89,8 @@ Get it now
    pip install -U marshmallow-sqlalchemy
 
 
+Requires Python >= 3.6, marshmallow >= 2.15.2, and SQLAlchemy >= 1.2.0.
+
 Documentation
 =============
 
@@ -99,6 +101,7 @@ Project Links
 
 - Docs: https://marshmallow-sqlalchemy.readthedocs.io/
 - Changelog: https://marshmallow-sqlalchemy.readthedocs.io/en/latest/changelog.html
+- Contributing Guidelines: https://marshmallow-sqlalchemy.readthedocs.io/en/latest/contributing.html
 - PyPI: https://pypi.python.org/pypi/marshmallow-sqlalchemy
 - Issues: https://github.com/marshmallow-code/marshmallow-sqlalchemy/issues
 
