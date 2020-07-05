@@ -34,3 +34,5 @@ Contributors
 - Michaela Ockova `@evelyn9191 <https://github.com/evelyn9191>`_
 - Pierre Verkest `@petrus-v <https://github.com/petrus-v>`_
 - Erik Cederstrand `@ecederstrand <https://github.com/ecederstrand>`_
+- Daven Quinn `@davenquinn <https://github.com/davenquinn>`_
+- Peter Schutt `@peterschutt <https://github.com/peterschutt>`_

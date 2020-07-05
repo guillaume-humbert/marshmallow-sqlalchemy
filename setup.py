@@ -4,9 +4,9 @@ from setuptools import setup, find_packages
 
 INSTALL_REQUIRES = ("marshmallow>=2.15.2", "SQLAlchemy>=1.2.0")
 EXTRAS_REQUIRE = {
-    "tests": ["pytest", "mock"],
-    "lint": ["flake8==3.7.9", "flake8-bugbear==19.8.0", "pre-commit~=1.18"],
-    "docs": ["sphinx==2.2.2", "alabaster==0.7.12", "sphinx-issues==1.2.0"],
+    "tests": ["pytest", "pytest-lazy-fixture"],
+    "lint": ["flake8==3.8.2", "flake8-bugbear==20.1.4", "pre-commit~=2.0"],
+    "docs": ["sphinx==3.0.4", "alabaster==0.7.12", "sphinx-issues==1.2.0"],
 }
 EXTRAS_REQUIRE["dev"] = EXTRAS_REQUIRE["tests"] + EXTRAS_REQUIRE["lint"] + ["tox"]
 
@@ -16,7 +16,7 @@ def find_version(fname):
     Raises RuntimeError if not found.
     """
     version = ""
-    with open(fname, "r") as fp:
+    with open(fname) as fp:
         reg = re.compile(r'__version__ = [\'"]([^\'"]*)[\'"]')
         for line in fp:
             m = reg.match(line)
@@ -57,6 +57,7 @@ setup(
         "Natural Language :: English",
         "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
     ],
     test_suite="tests",
     project_urls={
