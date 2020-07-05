@@ -1,3 +1,9 @@
+marshmallow-sqlalchemy (0.23.1-1) eoan; urgency=medium
+
+  * New upstream version 0.23.1
+
+ -- Guillaume J Humbert <guillaume.j.humbert@pm.me>  Sun, 05 Jul 2020 16:36:13 +0800
+
 marshmallow-sqlalchemy (0.21.0-1) eoan; urgency=medium
 
   * New upstream version 0.21.0
