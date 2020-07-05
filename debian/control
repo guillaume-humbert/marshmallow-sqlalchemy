@@ -2,7 +2,7 @@ Source: marshmallow-sqlalchemy
 Section: python
 Priority: optional
 Maintainer: Guillaume J Humbert <guillaume.j.humbert@pm.me>
-Build-Depends: debhelper (>=10), dh-python, python3-all, python3-setuptools, python3-pytest, python3-marshmallow, python3-sqlalchemy
+Build-Depends: debhelper (>=10), dh-python, python3-all, python3-setuptools, python3-pytest, python3-pytest-lazy-fixture, python3-marshmallow, python3-sqlalchemy
 Standards-Version: 4.1.4
 Homepage: https://marshmallow-sqlalchemy.readthedocs.io/en/latest/
 X-Python3-Version: >= 3.6
