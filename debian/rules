@@ -11,3 +11,5 @@ override_dh_auto_clean:
 	git checkout -- src/marshmallow_sqlalchemy.egg-info/* || echo -n
 	# Pybuild internal files.
 	rm -Rf .pybuild/ 2> /dev/null || echo -n
+	# Pytest cache
+	rm -Rf .pytest_cache/ 2> /dev/null || echo -n
