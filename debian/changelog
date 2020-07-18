@@ -1,3 +1,9 @@
+marshmallow-sqlalchemy (0.23.1-2) focal; urgency=medium
+
+  * Focal upgrade.
+
+ -- Guillaume J Humbert <guillaume.j.humbert@pm.me>  Sat, 18 Jul 2020 10:42:47 +0800
+
 marshmallow-sqlalchemy (0.23.1-1) eoan; urgency=medium
 
   * New upstream version 0.23.1
